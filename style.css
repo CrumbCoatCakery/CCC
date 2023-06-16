@@ -96,20 +96,98 @@ a:hover {
 		flex-wrap:wrap;
 		flex-direction: column;
 	}
-	#fresh{
-		flex-direction: column;
+	
+	
+	.bar{
+		margin-top:10px;
+		width:80%;
 	}
-	#top {
+	#top{
+		display:flex;
+		justify-content: space-around;
 		margin:0;
+	}
+	#fresh{
+		margin-bottom:40px;
+	}
+	#fresh img{
+		margin:0px 0px 20px 0px;
 	}
 }
 
 
-@media screen and (max-width:500px) {
+
+
+@media screen and (max-width:1100px) {
+	.cakecup{
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin:0;
+		align-items:center;
+		}
+	#cake{
+		flex-wrap:wrap;
+		flex-direction: column;
+	}
+	
+	
+	.bar{
+		margin-top:10px;
+		width:80%;
+	}
+	#top{
+		display:flex;
+		justify-content: space-around;
+		margin:0;
+	}
+	#fresh{
+		margin-bottom:40px;
+	}
+	#fresh img{
+		margin:0px 0px 20px 0px;
+	}
+}
+
+
+@media screen and (max-width:1485px) {
+	#cake img{
+		height:700px;
+	}
+}
+
+
+
+@media screen and (max-width:1340px) {
+	#cake img{
+		height:600px;
+	}
+}
+
+
+@media screen and (max-width:1190px) {
+	#cake img{
+		height:500px;
+	}
+}
+@media screen and (max-width:700px) {
 	.main-content{
 		flex-wrap:wrap;
 		flex-direction:column;
 		margin:0;
+	}
+	.bar{
+		margin-top:10px;
+		width:80%;
+	}
+	#top{
+		display:flex;
+		justify-content: space-around;
+	}
+	#fresh{
+		margin-bottom:40px;
+	}
+	#fresh img{
+		margin:0px 0px 20px 0px;
 	}
 	#thebaker p{
 		font-size:25px;
