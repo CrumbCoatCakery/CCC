@@ -112,6 +112,9 @@ a:hover {
 	}
 	#fresh img{
 		margin:0px 0px 20px 0px;
+		}
+	#cake img{
+		height:200px;
 	}
 }
 
@@ -125,10 +128,7 @@ a:hover {
 		margin:0;
 		align-items:center;
 		}
-	#cake{
-		flex-wrap:wrap;
-		flex-direction: column;
-	}
+	
 	
 	
 	.bar{
@@ -139,6 +139,7 @@ a:hover {
 		display:flex;
 		justify-content: space-around;
 		margin:0;
+		font-size:35px;
 	}
 	#fresh{
 		margin-bottom:40px;
@@ -146,12 +147,25 @@ a:hover {
 	#fresh img{
 		margin:0px 0px 20px 0px;
 	}
+	#cake img{
+		height:800px;
+	}
 }
 
 
 @media screen and (max-width:1485px) {
 	#cake img{
 		height:700px;
+	}
+	#top{
+		display:flex;
+		justify-content: space-around;
+		margin:0;
+		font-size:35px;
+	}
+	.bar{
+		margin-top:10px;
+		width:80%;
 	}
 }
 
@@ -161,12 +175,31 @@ a:hover {
 	#cake img{
 		height:600px;
 	}
+	#top{
+		display:flex;
+		justify-content: space-around;
+		margin:0;
+		font-size:35px;
+	}
+	.bar{
+		margin-top:10px;
+		width:80%;
+	}
 }
 
 
 @media screen and (max-width:1190px) {
 	#cake img{
 		height:500px;
+	}
+	#top{
+		display:flex;
+		justify-content: space-around;
+		margin:0;
+	}
+	.bar{
+		margin-top:10px;
+		width:80%;
 	}
 }
 @media screen and (max-width:700px) {
@@ -366,88 +399,71 @@ li{
    }
 }
 
-@media screen and (max-width:1550px) {
-	.main-cake-cupcake img{
-		height:500px;
-		width:500px;
-	}
-	
-}
 
-@media screen and (max-width:1492px) {
-	.main-cake-cupcake {
-		flex-wrap:wrap;
-		flex-direction: column;
-	}
-	.main-cake-cupcake img{
-		height:400px;
-		width:400px;
-	}
-}
-
-@media screen and (max-width:500px) {
-	.main-cake-cupcake {
-		flex-wrap:wrap;
-		flex-direction: column;
-	
-	}
-	.main-cake-cupcake img{
-		height:400px;
-		width:400px;
-		margin-top:100px;
-	}
-}
-@media screen and (max-width:800px) {
-	.main-cake-cupcake {
-		flex-wrap:wrap;
-		flex-direction: column;
-	
-	}
-	.main-cake-cupcake img{
-		height:400px;
-		width:400px;
-		margin-top:30px;
-	}
-	.main-cupcakes{
-		display:flex;
-		flex-direction: column;
-	}
-}
-@media screen and (max-width:1200px) {
-	.main-cake-cupcake {
-		flex-wrap:wrap;
-		flex-direction: column;
-	
-	}
-	.main-cake-cupcake img{
-		height:400px;
-		width:400px;
-		margin-top:40px;
-	}
-}
-@media screen and (max-width:1600px) {
-	.main-cake-cupcake {
-		flex-wrap:wrap;
-		flex-direction: column;
-	
-	}
-	.main-cake-cupcake img{
-		height:400px;
-		width:400px;
-		margin-top:55px;
-	}
-	.main-cakes{
-		margin-top:20px;
-	}
-	.main-cupcakes{
-		margin-top:20px;
-	}
-}
 #gallery img:hover {
    filter:none;
 }
 .main{
 	display:flex;
+}
+@media screen and (max-width:1600px) {
+	.main-cake-cupcake{
+		display:flex;
+	}
+	.main-cake-cupcake img{
+		height:500px;
+		width:500px;
+	}
+	
+	
+	
+	
+}
+
+@media screen and (max-width:1400px) {
+	.main-cake-cupcake{
+		display:flex;
+	}
+	.main-cake-cupcake img{
+		height:400px;
+		width:400px;
+	}
+	
+	
+	
+	
+}
+
+@media screen and (max-width:1200px) {
+	.main-cake-cupcake{
+		display:flex;
+	}
+	.main-cake-cupcake img{
+		height:250px;
+		width:250px;
+	}
+	
+	
+	
+	
+}
+
+
+@media screen and (max-width:900px) {
+	.main-cake-cupcake{
+		display:flex;
+		
+	}
+	.main-cake-cupcake img{
+		display:none;
+	}
+	.main-cakes {
+		
+		
+	}
+	
+	
+	
 }
 .main-cake-cupcake{
 	display:flex;
